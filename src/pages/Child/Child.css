@@ -1,0 +1,48 @@
+.Container{
+    max-width: 1240px;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.Card{
+    width: 349px;
+    height: 200px;
+    border: 10px solid rgb(85, 85, 255);
+    margin: auto;
+   
+    margin-top: 5rem;
+    box-shadow: -1px -1px 26px -1px #282c34;
+    border-radius: 10%;
+  
+}
+
+.Card-body h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(198, 198, 157);
+}
+
+.Buton-stection1{
+      width: 120px;
+      height: 40px;
+      background-color: coral;
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+
+} 
+.Button-section2{
+      width: 120px;
+      height: 40px;
+      background-color: rgb(101, 152, 236);
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+
+} 
+.Buton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
